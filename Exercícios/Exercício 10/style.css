@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*
+id(em HTML) = #(em CSS)
+class(em HTML) = .(em CSS)
+*/
+body{
+    background-color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-weight: bolder;
+color: brown;
+}
+h2{
+color: blue;
+
+}
+h1#principal{
+    text-align: center;
+    font-style: italic;
+}
+p{
+text-align: justify;
+text-indent: 20px;
+}
+h2.basico {
+color: black;
+}
+h2.intermediario{
+color: blue;
+font-weight: bolder;
+}
+h2.avancado{
+color: chocolate;
+}
